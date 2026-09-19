@@ -23,13 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 model_path = os.path.join(
     BASE_DIR,
     "models",
-    "best_overall_model.pkl"
+    "best_overall__model.pkl"
 )
 
 vectorizer_path = os.path.join(
     BASE_DIR,
     "models",
-    "tfidf_vectorizer_best.pkl"
+    "tfidf_vectorizer__best.pkl"
 )
 
 
